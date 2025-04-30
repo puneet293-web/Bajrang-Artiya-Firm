@@ -1,0 +1,38 @@
+1. Header
+ Website Structure Plan: Bajrang Artiya Firm
+ Firm Name: Bajrang Artiya Firm
+ Navigation Menu:
+  - Home
+  - About
+  - Daily Rates
+  - Facilities
+  - Purchase Data
+  - Happy Farmers
+  - Contact
+ 2. Hero Section
+ Large Visual Image: A full-width image of grains, silos, or a mandi market.
+ Tagline/Title: "Authorised Artiya Firm - Trusted Since 2005"
+ 3. About Us Section
+ A short introduction to Bajrang Trading Firm.
+ Mention government MSP rates, private buyers, and decades of trust and experience.
+ 4. Facilities Section
+ Loader and Bagger services available
+ Grain Dryer to reduce moisture
+ Modern Silos for safe and hygienic storage
+ JFarm Form Filling Assistance
+ E-Kharid Registration Support
+ Private Buyer Bidding Facility
+ 5. Daily Rates Section
+ A table format listing current rates of various grains (like Wheat, Mustard, Barley, etc.)
+ Rates can be manually updated daily in the HTML.
+ 6. Total Grain Purchased Section
+ Highlight the total quantity of grain (in quintals) purchased so far.
+ Designed with a CSS-based animated counter to make the number stand out.
+ 7. Happy Farmers Section
+A short statement highlighting farmer satisfaction, e.g.,
+ "Trusted by over 1,000+ farmers - Your trust is our reward."
+ 8. Contact / Footer Section
+ Phone Number
+ Full Address
+ WhatsApp Chat Button (link to a WhatsApp number)
+ Copyright & Rights

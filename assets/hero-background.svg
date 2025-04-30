@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="wheat-pattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <path d="M50,0 C55,25 45,25 50,50 C55,75 45,75 50,100" fill="none" stroke="#d68c45" stroke-width="1.5" opacity="0.2"/>
+      <path d="M30,0 C35,25 25,25 30,50 C35,75 25,75 30,100" fill="none" stroke="#d68c45" stroke-width="1.5" opacity="0.2"/>
+      <path d="M70,0 C75,25 65,25 70,50 C75,75 65,75 70,100" fill="none" stroke="#d68c45" stroke-width="1.5" opacity="0.2"/>
+    </pattern>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0e9d8"/>
+      <stop offset="100%" style="stop-color:#e6dcc6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)"/>
+  
+  <!-- Wheat field illustration -->
+  <rect width="100%" height="100%" fill="url(#wheat-pattern)"/>
+  
+  <!-- Grain illustration - abstract shapes -->
+  <g opacity="0.6">
+    <ellipse cx="300" cy="700" rx="200" ry="100" fill="#8b6d3d" opacity="0.2"/>
+    <ellipse cx="600" cy="800" rx="250" ry="150" fill="#8b6d3d" opacity="0.15"/>
+    <ellipse cx="1000" cy="750" rx="300" ry="200" fill="#8b6d3d" opacity="0.2"/>
+    <ellipse cx="1400" cy="800" rx="200" ry="100" fill="#8b6d3d" opacity="0.15"/>
+    <ellipse cx="1700" cy="750" rx="250" ry="150" fill="#8b6d3d" opacity="0.2"/>
+  </g>
+  
+  <!-- Silo illustration - simplified -->
+  <g transform="translate(1600, 500)">
+    <rect x="-40" y="-200" width="80" height="250" rx="5" fill="#e6dcc6" stroke="#8b6d3d" stroke-width="2"/>
+    <path d="M-40,-200 A40,20 0 0,1 40,-200" fill="#e6dcc6" stroke="#8b6d3d" stroke-width="2"/>
+    <rect x="-50" y="50" width="100" height="20" rx="2" fill="#8b6d3d"/>
+  </g>
+  
+  <g transform="translate(1700, 550)">
+    <rect x="-30" y="-150" width="60" height="200" rx="5" fill="#e6dcc6" stroke="#8b6d3d" stroke-width="2"/>
+    <path d="M-30,-150 A30,15 0 0,1 30,-150" fill="#e6dcc6" stroke="#8b6d3d" stroke-width="2"/>
+    <rect x="-40" y="50" width="80" height="15" rx="2" fill="#8b6d3d"/>
+  </g>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="100%" height="100%" fill="url(#noise)" opacity="0.03"/>
+</svg>
